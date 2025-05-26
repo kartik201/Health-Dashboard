@@ -1,60 +1,41 @@
 # Healthcare Dashboard
 
-A modern, responsive healthcare dashboard built with React, TypeScript, and Tailwind CSS. This project demonstrates the implementation of a complex UI with various components like calendars, health status indicators, and appointment scheduling.
+A modern healthcare dashboard built with React, TypeScript, and Tailwind CSS. The dashboard provides a comprehensive view of patient appointments, schedules, and health metrics.
 
 ## Features
 
-- Clean and modern UI design
-- Responsive layout
-- Health status visualization
-- Calendar view
-- Upcoming appointments
-- Sidebar navigation
+- Interactive calendar with appointment scheduling
+- Activity tracking and visualization
+- Patient health overview
+- Upcoming schedule management
+- Modern, responsive design
 
 ## Tech Stack
 
-- React 18
+- React
 - TypeScript
 - Tailwind CSS
 - Vite
-- React Icons
 
 ## Getting Started
 
-### Prerequisites
-
-- Node.js 16.x or later
-- npm 7.x or later
-
-### Installation
-
-1. Clone the repository:
+1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/healthcare-dashboard.git
+git clone [your-repo-url]
 cd healthcare-dashboard
 ```
 
-2. Install dependencies:
+2. Install dependencies
 ```bash
 npm install
 ```
 
-3. Start the development server:
+3. Run the development server
 ```bash
 npm run dev
 ```
 
-4. Open your browser and visit `http://localhost:5173`
-
-## Building for Production
-
-To create a production build:
-
-```bash
-npm run build
-```
-
-The built files will be in the `dist` directory.
+4. Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
 ## Project Structure
 
@@ -63,22 +44,11 @@ healthcare-dashboard/
 ├── src/
 │   ├── components/
 │   │   ├── Dashboard/
-│   │   │   ├── Calendar.tsx
-│   │   │   ├── HealthStatus.tsx
-│   │   │   ├── UpcomingSchedule.tsx
-│   │   │   └── Dashboard.tsx
-│   │   └── Layout/
-│   │       ├── Header.tsx
-│   │       └── Sidebar.tsx
-│   ├── App.tsx
-│   └── index.css
+│   │   └── common/
+│   ├── data/
+│   └── App.tsx
 ├── public/
-├── index.html
-├── package.json
-├── tailwind.config.js
-├── postcss.config.js
-├── tsconfig.json
-└── vite.config.ts
+└── package.json
 ```
 
 ## License
